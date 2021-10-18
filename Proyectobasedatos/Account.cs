@@ -25,23 +25,23 @@ namespace Proyectobasedatos
         }
         private Crud crud = new Crud();
 
-        //metodo para retornar los registros de la tabla Book
+        
         public MySqlDataReader getAllBooks()
         {
             string query = "SELECT bookId,title,subtitle,ISBN,publishedDate FROM book";
 
-            //llamado al metodo select de la clase Crud
+            
             return crud.select(query);
         }
 
-        //metodo para insertar o editar un registro
+        
         public Boolean newEditAccount(string action)
         {
             if (action == "new")
             {
                 string query = "INSERT INTO account(password, birthdate, owner, email)" +
                     "VALUES ('" + _password + "', '" + _birthDate + "', '" + _owner + "', '" + _email + "')";
-                crud.executeQuery(query); //llamato al metodo executeQuery de la clase Crud
+                crud.executeQuery(query);
                 return true;
             }
             else if (action == "edit")
@@ -60,10 +60,10 @@ namespace Proyectobasedatos
             return false;
         }
 
-        //metodo para eliminar
-        public Boolean deleteBook()
+        
+        public Boolean deleteAccount()
         {
-            string query = "DELETE FROM book WHERE bookId='" + _idAccount + "'";
+            string query = "DELETE FROM account WHERE idaccount='" + _idAccount + "'";
             crud.executeQuery(query);
             return true;
         }

@@ -22,7 +22,7 @@ namespace Proyectobasedatos
             return conn;
         }
 
-        //cerrar la conexion
+        
         public MySqlConnection closeConnection()
         {
             if (conn.State == ConnectionState.Open)
