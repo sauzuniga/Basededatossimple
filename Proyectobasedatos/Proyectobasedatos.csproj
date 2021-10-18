@@ -98,6 +98,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="Crud.cs" />
     <Compile Include="fmrmenu.cs">
       <SubType>Form</SubType>
     </Compile>

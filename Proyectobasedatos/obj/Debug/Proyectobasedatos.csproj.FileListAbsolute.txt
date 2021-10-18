@@ -35,3 +35,4 @@ C:\Users\USER\source\repos\Proyectobasedatos\Proyectobasedatos\obj\Debug\Proyect
 C:\Users\USER\source\repos\Proyectobasedatos\Proyectobasedatos\obj\Debug\Proyectobasedatos.csproj.CopyComplete
 C:\Users\USER\source\repos\Proyectobasedatos\Proyectobasedatos\obj\Debug\Proyectobasedatos.exe
 C:\Users\USER\source\repos\Proyectobasedatos\Proyectobasedatos\obj\Debug\Proyectobasedatos.pdb
+C:\Users\USER\source\repos\Proyectobasedatos\Proyectobasedatos\obj\Debug\Proyectobasedatos.Form1.resources
